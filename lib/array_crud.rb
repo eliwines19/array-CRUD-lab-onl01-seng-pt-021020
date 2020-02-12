@@ -33,9 +33,10 @@ end
 
 def retrieve_first_element_from_array(array)
   expressions = ["wow", "oh lord", "gee-wizz"]
-    expressions[0]
+    expressions.first
 end
 
 def retrieve_last_element_from_array(array)
-
+  i_love_this_lab = ["totally", "exactly", "most definitely", "arrays!"]
+    i_love_this_lab.last
 end
